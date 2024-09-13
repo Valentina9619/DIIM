@@ -58,7 +58,7 @@ A = np.array([[0, 0, 0.3],
               [0.4, 0, 0],
               [0.2, 0.6, 0]])
 
-recovery_t = np.array([[60], [60], [60]]) # Assuming that all infrastructures required 30 days to recovery of 99%
+recovery_t = np.array([[60], [60], [60]]) # Assuming that all infrastructures required 60 days to recovery of 99%
 K = K_matrix(A, recovery_t)
 
 c = np.array([[0], [0], [0]])
